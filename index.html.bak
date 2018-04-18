@@ -26,6 +26,9 @@
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109454817-1"></script>
+
 <script>
 var $_GET = {};
 document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
@@ -99,20 +102,6 @@ function get_cookie() {
         'dimension2': TSB_ga_Cookie
         });
    }
-</script>
-
-<script src="//dmp.eland-tech.com/dmpreceiver/eland_tracker_nopd.js"></script>
-<script type="text/javascript">
-var dataJson={'subFolder':'taishin_activity1',
-'ecInfo':{
-'memberID': cust_No
-},
-'trackType':'view',
-'trackSubfolderDepth':1,
-'targetType':'usual',
-'source':'taishinbank'
-};
-ElandTracker.Track(dataJson);
 </script>
 
 
