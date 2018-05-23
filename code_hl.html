@@ -1,5 +1,12 @@
-<html>
-<head>
+<script>
+var $_GET = {};
+document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
+function decode(s) {
+return decodeURIComponent(s.split("+").join(" "));
+}
+$_GET[decode(arguments[1])] = decode(arguments[2]);
+});
+</script>
 <script>
 function cID(name) {
   var value = "; " + document.cookie;
@@ -36,7 +43,3 @@ if (cust_no == undefined){var cust_no = null ;}
         'dimension4': nbuuid	// nbuuid此處-照IT定義填入
    });
 </script>
-</head>
-<body>
-	房貸網測試
-</body></html>
