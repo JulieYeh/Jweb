@@ -51,5 +51,9 @@ if (cust_no == undefined){var cust_no = null ;}
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-116360305-1');
+  gtag('config', 'UA-116360305-1', {
+  'cookie_name': 'gaJJCookie'
+  'cookie_expires': 2419200
+});
+  
 </script>
