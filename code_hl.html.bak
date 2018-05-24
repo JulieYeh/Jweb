@@ -1,46 +1,13 @@
-
-<script>
-var $_GET = {};
-document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
-function decode(s) {
-return decodeURIComponent(s.split("+").join(" "));
-}
-$_GET[decode(arguments[1])] = decode(arguments[2]);
-});
-</script>
-<script>
-function cID(name) {
-  var value = "; " + document.cookie;
-  var parts = value.split("; " + name + "=");
-  if (parts.length == 2) return parts.pop().split(";").shift();
-}
-// cust_no
-var cust_no = $_GET['utm_term'] ;
-if (cust_no == undefined){var cust_no = null ;}
-
-// sas_cookie
- if(cID("LisboaCSApersisted")!= null){ var sas_cookie = cID("LisboaCSApersisted").split("_")[2]; } 
- if (sas_cookie == undefined){var sas_cookie = null ;} 
-
-// nbuuid
- if (nbuuid == undefined){var nbuuid = null ;} 
-
-</script>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106549078-4"></script>
-
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116360305-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config','UA-106549078-4',{
-       'custom_map': {
-            'dimension2': 'client_id'
-        },
-		'cookie_expires':63072000,
-		'dimension1': cust_no,
-		'dimension3': sas_cookie,
-        'dimension4': nbuuid	// nbuuid此處-照IT定義填入
-   });
+
+  gtag('config', 'UA-116360305-1', {
+  'cookie_name': '_ga',
+  'cookie_expires': 2419200
+});
+  
 </script>
