@@ -43,13 +43,3 @@ if (cust_no == undefined){var cust_no = null ;}
         'dimension4': nbuuid	// nbuuid此處-照IT定義填入
    });
 </script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116360305-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-116360305-1');
-</script>
