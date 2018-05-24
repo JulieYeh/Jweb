@@ -1,18 +1,3 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116360305-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-116360305-1', {
-  'cookie_name': 'gaJJCookie',
-  'cookie_expires': 2419200
-});
-  
-</script>
-
-
 <script>
 var $_GET = {};
 document.location.search.replace(/\??(?:([^=]+)=([^&]*)&?)/g, function () {
@@ -59,3 +44,16 @@ if (cust_no == undefined){var cust_no = null ;}
    });
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116360305-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116360305-1', {
+  'cookie_name': 'ga1JJCookie',
+  'cookie_expires': 2419200
+});
+  
+</script>
