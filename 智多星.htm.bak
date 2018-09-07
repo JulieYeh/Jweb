@@ -36,7 +36,7 @@ var utm_term = $_GET['utm_term'] ;
 
 var cust_no = '' ;  //¸m¤JBancs¨t²Îcust_no
 
-if (cust_no == undefined){var cust_no = utm_term ;}
+if (cust_no == null){var cust_no = utm_term ;}
 
 //console.log('cust_no:' + cust_no);
 
