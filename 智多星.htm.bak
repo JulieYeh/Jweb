@@ -36,7 +36,7 @@ var utm_term = $_GET['utm_term'] ;
 
 var cust_no2 = '' ;  //¸m¤JBancs¨t²Îcust_no
 
-if (cust_no2 == ''){var cust_no = utm_term ;}{var cust_no = cust_no2 ;}
+if (cust_no2 == ''){var cust_no = utm_term ;} else {var cust_no = cust_no2 ;}
 
 //console.log('cust_no:' + cust_no);
 
