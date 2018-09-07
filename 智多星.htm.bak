@@ -1,4 +1,5 @@
-
+<html>
+	<header>
 <script>
 
 var $_GET = {};
@@ -111,3 +112,5 @@ ElandTracker.Track(dataJson);
 
 </script>
 
+</header>
+<body>test</body></html>
